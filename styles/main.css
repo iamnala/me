@@ -6,11 +6,12 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  gap: 40px;
 }
 
 h1 {
   font-family: "Send Flowers", cursive;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 div {
@@ -18,4 +19,46 @@ div {
   gap: 40px;
   justify-content: center;
   align-items: center;
+}
+
+.tiktok {
+  width: 30px;
+  height: auto;
+}
+
+.youtube {
+  width: 30px;
+  height: auto;
+}
+
+.snap {
+  width: 30px;
+  height: auto;
+}
+
+.insta {
+  width: 27px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .tiktok {
+    width: 40px;
+  }
+
+  .youtube {
+    width: 40px;
+  }
+
+  .snap {
+    width: 40px;
+  }
+
+  .insta {
+    width: 35px;
+  }
 }
