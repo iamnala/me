@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Send Flowers", cursive;
+  font-size: 40px;
+}
+
+div {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
